@@ -1,4 +1,8 @@
+# website for study  (Ref:Bedimcode)
+
 # Delizia — Cake Bakery Website
+
+![Delizia Cake Website Preview](cake-website.png)
 
 A one-page website for a cake shop. Built with HTML, CSS, and JavaScript.
 
@@ -46,5 +50,5 @@ cake-website/
 ```
 
 
-
 # cake-website
+[Delizia Cake Website Preview](./assets/img/cake-website.png)
