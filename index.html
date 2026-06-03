@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="description" content="Discover delicious custom cakes made with premium ingredients. Order handmade cakes for birthdays, weddings and special occasions. Fresh, beautiful and crafted with love.">
+   <meta name="robots" content="index, follow">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css">
+
+   <!--=============== SWIPER CSS ===============-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Delizia | Custom Cakes Bakery</title>
+</head>
+<body>
+
+   <!--==================== HEADER & NAV ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#home" class="nav__logo">
+            <img src="assets/img/logo.svg" alt="Delizia Logo">
+            <span>Delizia</span>
+         </a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="#home" class="nav__link active-link">Home</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#about" class="nav__link">About</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#product" class="nav__link">Products</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#new" class="nav__link">New</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#contact" class="nav__link">Contact</a>
+               </li>
+            </ul>
+
+            <img src="assets/img/sticker-1.svg" alt="" class="nav__img">
+            <i class="ri-close-line nav__close" id="nav-close"></i>
+         </div>
+
+         <div class="nav__btns">
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-function-line"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <div class="home__data">
+               <h1 class="home__title">
+                  Handmade <br> Cakes with <br> Love & Care
+               </h1>
+               <p class="home__description">
+                  Freshly baked cakes crafted with the finest ingredients for every special occasion.
+               </p>
+               <a href="#product" class="button">Explore Cakes</a>
+            </div>
+
+            <div class="home__images">
+               <img src="assets/img/home-balloons.png" alt="balloons" class="home__balloons">
+
+               <!-- Swiper -->
+               <div class="swiper home-swiper">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <img src="assets/img/home-cake-1.png" alt="cake 1" class="home__img">
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="assets/img/home-cake-3.png" alt="cake 3" class="home__img">
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="assets/img/home-cake-4.png" alt="cake 4" class="home__img">
+                     </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+
+               <img src="assets/img/home-blob.svg" alt="" class="home__blob">
+               <img src="assets/img/home-base.png" alt="" class="home__base">
+               <img src="assets/img/leaf-1.png" alt="" class="home__leaf home__leaf-1">
+               <img src="assets/img/leaf-2.png" alt="" class="home__leaf home__leaf-2">
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container grid">
+            <div class="about__images">
+               <img src="assets/img/about-blob.svg" alt="" class="about__blob">
+               <img src="assets/img/about-img.png" alt="about" class="about__img">
+
+               <div class="about__stickers">
+                  <img src="assets/img/about-cupcake-1.png" alt="" class="about__cupcake">
+                  <img src="assets/img/about-cupcake-2.png" alt="" class="about__cupcake">
+                  <img src="assets/img/about-cupcake-3.png" alt="" class="about__cupcake">
+               </div>
+            </div>
+
+            <div class="about__data">
+               <h2 class="section__title about__title">About Us</h2>
+               <p class="about__description">
+                  We are a small family bakery with over 10 years of experience creating beautiful custom cakes. Every cake is made fresh with love using high-quality ingredients.
+               </p>
+               <ul class="about__list">
+                  <li class="about__item">
+                     <i class="ri-check-line"></i>
+                     100% Fresh Ingredients
+                  </li>
+                  <li class="about__item">
+                     <i class="ri-check-line"></i>
+                     Custom Designs Available
+                  </li>
+                  <li class="about__item">
+                     <i class="ri-check-line"></i>
+                     Same-Day Delivery
+                  </li>
+               </ul>
+               <a href="#contact" class="button">Order Now</a>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== PRODUCTS ====================-->
+      <section class="product section" id="product">
+         <h2 class="section__title">Our Products</h2>
+
+         <div class="product__container container">
+            <!-- Tabs -->
+            <div class="product__tabs">
+               <span class="product__tab active-tab" data-tab="vanilla">Vanilla</span>
+               <span class="product__tab" data-tab="strawberry">Strawberry</span>
+               <span class="product__tab" data-tab="chocolate">Chocolate</span>
+               <span class="product__tab" data-tab="dried-fruit">Dried Fruit</span>
+               <span class="product__tab" data-tab="others">Others</span>
+            </div>
+
+            <!-- Swiper -->
+            <div class="swiper product-swiper">
+               <div class="swiper-wrapper" id="product-swiper-wrapper">
+
+                  <!-- Vanilla -->
+                  <div class="swiper-slide product__slide" data-category="vanilla">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-vanilla-1.png" alt="Vanilla Cake" class="product__img">
+                        <h3 class="product__name">Vanilla Dream</h3>
+                        <span class="product__price">$24.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+                  <div class="swiper-slide product__slide" data-category="vanilla">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-vanilla-2.png" alt="Vanilla Cake 2" class="product__img">
+                        <h3 class="product__name">Vanilla Classic</h3>
+                        <span class="product__price">$22.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+                  <div class="swiper-slide product__slide" data-category="vanilla">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-vanilla-3.png" alt="Vanilla Cake 3" class="product__img">
+                        <h3 class="product__name">Vanilla Delight</h3>
+                        <span class="product__price">$26.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+
+                  <!-- Strawberry -->
+                  <div class="swiper-slide product__slide" data-category="strawberry">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-strawberry-1.png" alt="Strawberry Cake" class="product__img">
+                        <h3 class="product__name">Strawberry Bliss</h3>
+                        <span class="product__price">$27.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+                  <div class="swiper-slide product__slide" data-category="strawberry">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-strawberry-2.png" alt="Strawberry Cake 2" class="product__img">
+                        <h3 class="product__name">Strawberry Rose</h3>
+                        <span class="product__price">$29.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+                  <div class="swiper-slide product__slide" data-category="strawberry">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-strawberry-3.png" alt="Strawberry Cake 3" class="product__img">
+                        <h3 class="product__name">Strawberry Burst</h3>
+                        <span class="product__price">$25.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+
+                  <!-- Chocolate -->
+                  <div class="swiper-slide product__slide" data-category="chocolate">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-chocolate-1.png" alt="Chocolate Cake" class="product__img">
+                        <h3 class="product__name">Choco Heaven</h3>
+                        <span class="product__price">$28.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+                  <div class="swiper-slide product__slide" data-category="chocolate">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-chocolate-2.png" alt="Chocolate Cake 2" class="product__img">
+                        <h3 class="product__name">Dark Velvet</h3>
+                        <span class="product__price">$31.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+                  <div class="swiper-slide product__slide" data-category="chocolate">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-chocolate-3.png" alt="Chocolate Cake 3" class="product__img">
+                        <h3 class="product__name">Triple Choco</h3>
+                        <span class="product__price">$33.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+
+                  <!-- Dried Fruit -->
+                  <div class="swiper-slide product__slide" data-category="dried-fruit">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-dried-fruit-1.png" alt="Dried Fruit Cake" class="product__img">
+                        <h3 class="product__name">Fruit Garden</h3>
+                        <span class="product__price">$30.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+                  <div class="swiper-slide product__slide" data-category="dried-fruit">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-dried-fruit-2.png" alt="Dried Fruit Cake 2" class="product__img">
+                        <h3 class="product__name">Tropical Mix</h3>
+                        <span class="product__price">$28.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+                  <div class="swiper-slide product__slide" data-category="dried-fruit">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-dried-fruit-3.png" alt="Dried Fruit Cake 3" class="product__img">
+                        <h3 class="product__name">Berry Medley</h3>
+                        <span class="product__price">$27.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+
+                  <!-- Others -->
+                  <div class="swiper-slide product__slide" data-category="others">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-others-1.png" alt="Other Cake" class="product__img">
+                        <h3 class="product__name">Special Edition</h3>
+                        <span class="product__price">$35.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+                  <div class="swiper-slide product__slide" data-category="others">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-others-2.png" alt="Other Cake 2" class="product__img">
+                        <h3 class="product__name">Birthday Bash</h3>
+                        <span class="product__price">$32.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+                  <div class="swiper-slide product__slide" data-category="others">
+                     <div class="product__card">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-others-3.png" alt="Other Cake 3" class="product__img">
+                        <h3 class="product__name">Wedding Tier</h3>
+                        <span class="product__price">$45.99</span>
+                        <button class="product__button button">Add to Cart</button>
+                     </div>
+                  </div>
+
+               </div>
+               <div class="swiper-pagination product__pagination"></div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== NEW ====================-->
+      <section class="new section" id="new">
+         <h2 class="section__title">New Arrivals</h2>
+
+         <div class="new__container container">
+            <div class="swiper new-swiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="new__card">
+                        <img src="assets/img/new-cake-2.png" alt="new cake" class="new__img">
+                        <div class="new__data">
+                           <h3 class="new__name">Rose Garden Cake</h3>
+                           <span class="new__price">$38.99</span>
+                           <p class="new__description">Elegant floral design with rose buttercream.</p>
+                           <button class="button new__button">Order Now</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="new__card">
+                        <img src="assets/img/new-cake-3.png" alt="new cake" class="new__img">
+                        <div class="new__data">
+                           <h3 class="new__name">Golden Honey Cake</h3>
+                           <span class="new__price">$36.99</span>
+                           <p class="new__description">Rich honey layers with caramel drizzle.</p>
+                           <button class="button new__button">Order Now</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="new__card">
+                        <img src="assets/img/new-cake-4.png" alt="new cake" class="new__img">
+                        <div class="new__data">
+                           <h3 class="new__name">Rainbow Layer Cake</h3>
+                           <span class="new__price">$42.99</span>
+                           <p class="new__description">Colorful layers for a fun celebration.</p>
+                           <button class="button new__button">Order Now</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="new__card">
+                        <img src="assets/img/new-cake-5.png" alt="new cake" class="new__img">
+                        <div class="new__data">
+                           <h3 class="new__name">Matcha Zen Cake</h3>
+                           <span class="new__price">$34.99</span>
+                           <p class="new__description">Smooth matcha cream with light sponge.</p>
+                           <button class="button new__button">Order Now</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-pagination new__pagination"></div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+         <h2 class="section__title">Contact Us</h2>
+
+         <div class="contact__container container grid">
+            <div class="contact__info">
+               <div class="contact__card">
+                  <i class="ri-map-pin-line contact__icon"></i>
+                  <h3 class="contact__title">Address</h3>
+                  <p class="contact__description">123 Bakery Street, Sweet City</p>
+               </div>
+               <div class="contact__card">
+                  <i class="ri-phone-line contact__icon"></i>
+                  <h3 class="contact__title">Phone</h3>
+                  <p class="contact__description">+1 (555) 123-4567</p>
+               </div>
+               <div class="contact__card">
+                  <i class="ri-mail-line contact__icon"></i>
+                  <h3 class="contact__title">Email</h3>
+                  <p class="contact__description">hello@delizia.com</p>
+               </div>
+            </div>
+
+            <form class="contact__form" id="contact-form">
+               <div class="contact__group">
+                  <input type="text" name="name" placeholder="Your Name" class="contact__input" required>
+                  <input type="email" name="email" placeholder="Your Email" class="contact__input" required>
+               </div>
+               <textarea name="message" placeholder="Your Message" class="contact__input contact__textarea" rows="6" required></textarea>
+               <button type="submit" class="button contact__button">
+                  Send Message <i class="ri-send-plane-line"></i>
+               </button>
+            </form>
+         </div>
+      </section>
+
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <div class="footer__content">
+            <a href="#home" class="footer__logo">
+               <img src="assets/img/logo.svg" alt="Delizia">
+               <span>Delizia</span>
+            </a>
+            <p class="footer__description">
+               Handcrafted cakes made with love for every special moment.
+            </p>
+         </div>
+
+         <div class="footer__content">
+            <h3 class="footer__title">Links</h3>
+            <ul class="footer__links">
+               <li><a href="#home" class="footer__link">Home</a></li>
+               <li><a href="#about" class="footer__link">About</a></li>
+               <li><a href="#product" class="footer__link">Products</a></li>
+               <li><a href="#new" class="footer__link">New</a></li>
+               <li><a href="#contact" class="footer__link">Contact</a></li>
+            </ul>
+         </div>
+
+         <div class="footer__content">
+            <h3 class="footer__title">Follow Us</h3>
+            <div class="footer__social">
+               <a href="#" class="footer__social-link"><i class="ri-instagram-line"></i></a>
+               <a href="#" class="footer__social-link"><i class="ri-facebook-circle-line"></i></a>
+               <a href="#" class="footer__social-link"><i class="ri-twitter-x-line"></i></a>
+               <a href="#" class="footer__social-link"><i class="ri-tiktok-line"></i></a>
+            </div>
+         </div>
+
+         <img src="assets/img/footer-blob.svg" alt="" class="footer__blob">
+         <img src="assets/img/leaf-3.png" alt="" class="footer__leaf">
+      </div>
+
+      <span class="footer__copy">&#169; 2025 Delizia. All rights reserved.</span>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+
+   <!--=============== SWIPER JS ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+</html>
